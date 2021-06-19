@@ -1,0 +1,196 @@
+body,
+html,
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container>div {
+    margin: 10px;
+}
+
+.flex2>div {
+    margin: 10px;
+    text-align: center;
+    margin-top: 30px;
+    width: 250px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex3>div {
+    margin: 10px;
+    text-align: center;
+    margin-top: 30px;
+    width: 350px;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fg1 {
+    flex-grow: 1;
+}
+
+.fg3 {
+    flex-grow: 3;
+}
+
+.h-150 {
+    height: 150px;
+    padding-top: 30px;
+}
+
+.h-130 {
+    height: 130px;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.bg-darkRed {
+    background-color: #5b191a;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+#nav {
+    background-color: #333;
+    height: 30px;
+    color: #fff;
+    line-height: 10px;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.text-1 {
+    font-size: 12px;
+    color: #000;
+    padding: 20px;
+}
+
+.text-2 {
+    font-size: 16px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #ffcc33;
+}
+
+a:active {
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.row-gray {
+    background-color: #ccc;
+}
+
+.row-center {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.row-80 {
+    width: 80%;
+    height: 100px;
+}
+
+.topnews {
+    color: black;
+}
+
+.mt-25 {
+    margin-top: 28px !important;
+}
+
+.textImg {
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.container1 {
+    height: 200px;
+    width: 100%;
+}
+
+.container2 {
+    height: 300px;
+    width: 100%;
+}
+
+.container_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.color-white {
+    color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+    .hide {
+        display: none !important;
+    }
+    .flex3,
+    .flex2,
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
